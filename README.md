@@ -1,5 +1,15 @@
 # AngularTest4
 
+Test 4
+
+- Create service that contain API call method
+- Create a component that displays items in the table
+- Display alternative rows with different background colors using style binding
+- Implement sorting functionality with drop-down for all columns
+- Implement search functionality to search any keyword exist in table
+
+GET API: https://dummyjson.com/users
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
 ## Development server

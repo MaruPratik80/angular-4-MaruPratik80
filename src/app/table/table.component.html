@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Maiden name</th>
+      <th>Age</th>
+      <th>Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      *ngFor="let user of users; let i = index"
+      [ngStyle]="{ backgroundColor: i % 2 === 0 ? '#f7f7f7' : '#e7e7e7' }"
+    >
+      <td>{{ user.firstName }}</td>
+      <td>{{ user.lastName }}</td>
+      <td>{{ user.maidenName }}</td>
+      <td>{{ user.age }}</td>
+      <td>{{ user.phone }}</td>
+    </tr>
+  </tbody>
+</table>
